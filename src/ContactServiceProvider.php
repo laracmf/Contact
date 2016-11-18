@@ -59,8 +59,6 @@ class ContactServiceProvider extends ServiceProvider
      */
     public function setupRoutes(Router $router)
     {
-        require __DIR__.'/Http/filters.php';
-
         $router->group(['namespace' => 'GrahamCampbell\Contact\Http\Controllers'], function (Router $router) {
             require __DIR__.'/Http/routes.php';
         });
