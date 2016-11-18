@@ -51,8 +51,6 @@ class ContactController extends Controller
     {
         $this->throttler = $throttler;
         $this->path = $path;
-
-        $this->beforeFilter('throttle.contact', ['only' => ['postSubmit']]);
     }
 
     /**
