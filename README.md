@@ -73,4 +73,4 @@ Laravel Contact provides you with the backend functionality (and email views) to
 
 ## License
 
-Laravel Contact is licensed under [The MIT License (MIT)](LICENSE).
+Based on Laravel Contact that licensed under [The MIT License (MIT)](LICENSE).
